@@ -1,0 +1,50 @@
+===============================================
+    DOCSANALYSER - AMBIENTE VIRTUAL CRIADO!
+===============================================
+
+✅ Ambiente virtual criado com sucesso!
+✅ Dependências instaladas:
+   - PyPDF2 (leitura de PDFs)
+   - pdfplumber (extração avançada de PDFs)
+   - python-docx (leitura de arquivos Word)
+   - docx2txt (leitura de arquivos .doc antigos)
+
+🚀 COMO USAR:
+
+1. ATIVAR O AMBIENTE VIRTUAL:
+   .\ativar_ambiente.ps1      (PowerShell - Recomendado)
+   OU
+   .\ativar_ambiente.bat      (Prompt de Comando)
+
+2. EXECUTAR O SCRIPT:
+   py docsAnalyser.py
+
+3. EXECUTAR TESTE:
+   py test_analyzer.py
+
+4. DESATIVAR AMBIENTE (quando terminar):
+   deactivate
+
+📁 ARQUIVOS CRIADOS:
+   - venv/                    (pasta do ambiente virtual)
+   - requirements.txt         (lista de dependências)
+   - ativar_ambiente.ps1      (script PowerShell)
+   - ativar_ambiente.bat      (script Batch)
+   - test_analyzer.py         (script de teste)
+   - README.md               (documentação completa)
+   - INSTRUCOES.txt          (este arquivo)
+
+🎯 O QUE O SCRIPT FAZ:
+   - Analisa documentos PDF, DOC e DOCX
+   - Identifica automaticamente o tipo de documento
+   - Renomeia os arquivos baseado no conteúdo
+   - Extrai nomes de pessoas dos documentos
+
+⚠️  IMPORTANTE:
+   - Sempre ative o ambiente virtual antes de usar
+   - Faça backup dos documentos antes de processar
+   - O script renomeia os arquivos permanentemente
+
+===============================================
+Para mais detalhes, veja o arquivo README.md
+===============================================

@@ -1,0 +1,59 @@
+{
+  "identidade": {
+    "keywords": [
+      "rg",
+      "identidade",
+      "registro geral",
+      "documento de identidade",
+      "carteira de identidade"
+    ],
+    "pattern": "idt_{nome}_{matricula}",
+    "extract_name": true,
+    "extract_matricula": true
+  },
+  "cpf": {
+    "keywords": [
+      "cpf",
+      "cadastro de pessoa física",
+      "receita federal"
+    ],
+    "pattern": "cpf_{nome}_{matricula}",
+    "extract_name": true,
+    "extract_matricula": true
+  },
+  "comprovante_residencia": {
+    "keywords": [
+      "comprovante",
+      "residência",
+      "endereço",
+      "conta de luz",
+      "conta de água",
+      "fatura"
+    ],
+    "pattern": "comp_residencia_{nome}_{matricula}",
+    "extract_name": true,
+    "extract_matricula": true
+  },
+  "contrato": {
+    "keywords": [
+      "contrato",
+      "acordo",
+      "termo",
+      "prestação de serviços"
+    ],
+    "pattern": "contrato_{tipo}_{nome}_{matricula}",
+    "extract_name": true,
+    "extract_matricula": true
+  },
+  "casamento": {
+    "keywords": [
+      "casamento",
+      "certidão de casamento",
+      "união",
+      "matrimônio"
+    ],
+    "pattern": "casamento_{nome}_{matricula}",
+    "extract_name": true,
+    "extract_matricula": true
+  }
+}
