@@ -1,0 +1,13 @@
+{
+  "theme": "light",
+  "auto_backup": true,
+  "gemini_enabled": true,
+  "last_directory": "C:/Users/Pedro Motta/Documents/Teste",
+  "window_size": "900x700",
+  "app_version": "2.0.0",
+  "supported_extensions": [
+    ".pdf",
+    ".docx",
+    ".doc"
+  ]
+}

@@ -1,4 +1,25 @@
 {
+  "oficio": {
+    "keywords": [
+      "ofício",
+      "oficio",
+      "encaminhamento",
+      "registro"
+    ],
+    "pattern": "OFI_{ra}",
+    "extract_name": false,
+    "extract_matricula": true
+  },
+  "termo": {
+    "keywords": [
+      "termo",
+      "responsabilidade",
+      "registro"
+    ],
+    "pattern": "TER_{ra}",
+    "extract_name": false,
+    "extract_matricula": true
+  },
   "identidade": {
     "keywords": [
       "rg",
@@ -7,53 +28,94 @@
       "documento de identidade",
       "carteira de identidade"
     ],
-    "pattern": "idt_{nome}_{matricula}",
-    "extract_name": true,
+    "pattern": "IDE_{ra}",
+    "extract_name": false,
     "extract_matricula": true
   },
   "cpf": {
     "keywords": [
       "cpf",
       "cadastro de pessoa física",
+      "cadastro de pessoa fisica",
       "receita federal"
     ],
-    "pattern": "cpf_{nome}_{matricula}",
-    "extract_name": true,
+    "pattern": "CPF_{ra}",
+    "extract_name": false,
     "extract_matricula": true
   },
-  "comprovante_residencia": {
+  "certidao": {
     "keywords": [
-      "comprovante",
-      "residência",
-      "endereço",
-      "conta de luz",
-      "conta de água",
-      "fatura"
-    ],
-    "pattern": "comp_residencia_{nome}_{matricula}",
-    "extract_name": true,
-    "extract_matricula": true
-  },
-  "contrato": {
-    "keywords": [
-      "contrato",
-      "acordo",
-      "termo",
-      "prestação de serviços"
-    ],
-    "pattern": "contrato_{tipo}_{nome}_{matricula}",
-    "extract_name": true,
-    "extract_matricula": true
-  },
-  "casamento": {
-    "keywords": [
+      "certidão",
+      "certidao",
+      "nascimento",
       "casamento",
-      "certidão de casamento",
       "união",
       "matrimônio"
     ],
-    "pattern": "casamento_{nome}_{matricula}",
-    "extract_name": true,
+    "pattern": "CER_{ra}",
+    "extract_name": false,
+    "extract_matricula": true
+  },
+  "ensino_medio": {
+    "keywords": [
+      "ensino médio",
+      "ensino medio",
+      "conclusão",
+      "conclusao",
+      "segundo grau",
+      "certificado"
+    ],
+    "pattern": "ENS_{ra}",
+    "extract_name": false,
+    "extract_matricula": true
+  },
+  "historico_graduacao": {
+    "keywords": [
+      "histórico escolar",
+      "historico escolar",
+      "graduação",
+      "graduacao",
+      "bacharelado",
+      "licenciatura"
+    ],
+    "pattern": "HES_{ra}",
+    "extract_name": false,
+    "extract_matricula": true
+  },
+  "historico_aproveitamento": {
+    "keywords": [
+      "aproveitamento",
+      "transferência",
+      "transferencia",
+      "outra instituição",
+      "outra instituicao"
+    ],
+    "pattern": "HEG_{ra}",
+    "extract_name": false,
+    "extract_matricula": true
+  },
+  "diploma": {
+    "keywords": [
+      "diploma",
+      "graduação",
+      "graduacao",
+      "título",
+      "titulo"
+    ],
+    "pattern": "DIP_{ra}",
+    "extract_name": false,
+    "extract_matricula": true
+  },
+  "taxa": {
+    "keywords": [
+      "gru",
+      "taxa",
+      "pagamento",
+      "guia",
+      "boleto"
+    ],
+    "pattern": "GRU_{ra}",
+    "extract_name": false,
     "extract_matricula": true
   }
 }
